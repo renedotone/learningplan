@@ -1,0 +1,72 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #d4d4dc;
+  padding: 5px;
+  width: 800px;
+
+}
+
+
+
+.grid-item {
+  background-color: #EDC822;
+  border: 2px solid #1d1e22;
+  padding: 10px;
+  font-size: 30px;
+  text-align: left;
+}
+.font-family: 'Lato', sans-serif;
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  color: #EDC822;
+}
+
+h1 {
+  color: #EDC822;
+}
+
+h3 {
+  color: #1d1e22;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #EDC822;
+  color: 1d1e22;
+  text-align: center;
+}
+
+/*link bewerking*/
+/* unvisited link */
+
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color:#d4d4dc ;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+
