@@ -1,14 +1,10 @@
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #d4d4dc;
   padding: 5px;
   width: 800px;
-
 }
-
-
 
 .grid-item {
   background-color: #EDC822;
@@ -17,7 +13,7 @@
   font-size: 30px;
   text-align: left;
 }
-.font-family: 'Lato', sans-serif;
+.font-family: 'Lato', sans-serif, Helvetica;
 
 .center {
   margin-left: auto;
